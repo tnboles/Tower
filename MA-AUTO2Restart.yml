@@ -1,4 +1,4 @@
- - host:MA-AUTO2
+- host:MA-AUTO2
   name: Restart service SDI_Upload2ClientFTPService, in all cases
     service:
       name: SDI_Upload2ClientFTPService
