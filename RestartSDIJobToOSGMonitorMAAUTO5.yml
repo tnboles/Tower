@@ -1,5 +1,6 @@
 --- 
-- hosts: MA-AUTO5
+- 
+  hosts: MA-AUTO5
   name: "Restart a service"
   win_service: 
     name: SDI_JobToOSGMonitor
