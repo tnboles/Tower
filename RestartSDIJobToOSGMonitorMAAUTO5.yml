@@ -1,6 +1,6 @@
 --- 
 - hosts: MA-AUTO5
-  win_service: 
+  service: 
   
   tasks:
     - name: SDI_JobToOSGMonitor
