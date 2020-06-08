@@ -1,6 +1,5 @@
 --- 
 - 
-  hosts: all
   name: "Restart a service"
   win_service: 
     name: SDI_JobToOSGMonitor
