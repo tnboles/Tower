@@ -1,6 +1,5 @@
 --- 
 - 
-  name: "Restart a service"
   win_service: 
     name: SDI_JobToOSGMonitor
     state: restarted
