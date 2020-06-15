@@ -1,6 +1,0 @@
----
-- name: Select MA-AUTO5 Server
-  hosts: MA-AUTO5
-  tasks:
-  - name: restart SDI_JobToOSGMonitor service
-    service: name=SDI_JobToOSGMonitor state=restarted
