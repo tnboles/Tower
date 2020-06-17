@@ -1,6 +1,6 @@
 ---
 - name: Select DEV-AUTO2 Server
-  hosts: DEV-AUTO2
+  hosts: DEV-AUTO2.southdata.com
   tasks:
   - name: restart SDI_FTPOrderEntryServiceWI service
     service: name=SDI_FTPOrderEntryServiceWI state=restarted
